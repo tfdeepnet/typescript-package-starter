@@ -1,0 +1,22 @@
+{
+  "name": "@tfdeepnet/example_package",
+  "version": "1.0.0",
+  "description": "A simple npm package to demonstrate GitHub Package Registry",
+  "main": "__init__.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfdeepnet/example_package.git"
+  },
+  "author": "tfdeepnet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tfdeepnet/example_package/issues"
+  },
+  "homepage": "https://github.com/tfdeepnet/example_package#readme",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
+}
